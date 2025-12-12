@@ -3,7 +3,7 @@
 }
 
 body{
-    
+    margin-left: 10px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: purple;
     display: flex;
@@ -96,7 +96,7 @@ section{
     margin-top: 0px;
     margin-left: 0px;
     margin-right:0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     max-width: 1600px;
     min-height: 420px;
     max-height: 800px;
@@ -244,10 +244,11 @@ div.cont-me h4{
     overflow: scroll;
     justify-content: space-between;
     flex-wrap: wrap ;
+    min-width: 200px;
 }
 .jacket{
     background-color: rgb(255, 255, 255);
-    max-width: 210px;
+    width: 210px;
     max-height: 350px;
     margin: 10px;
     border-radius: 10px 50px 50px 50px;
@@ -269,13 +270,16 @@ div.jacket img:hover{
     display: flex;
     
 }
+#access{
+    width: 200px;
+}
 #motive{
     background-color: rgb(255, 255, 255);
     border-radius: 0px 78px 0px 78px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: scroll;
+    overflow-x: hidden;
     padding: 20px 0px;
     align-items: center;
 
@@ -305,7 +309,7 @@ div.jacket img:hover{
     overflow-y: scroll ;
 }
 #size{
-    max-width: 3500px;
+    max-width: 350px;
     height: 350px;
     border-radius: 70px;
 }
@@ -431,6 +435,8 @@ footer{
     }
 }
 @media screen and (max-width: 600px ) {
+    body{
+    margin-left: 10px;}
    #sam{
     display: block;
     width: 40px;
