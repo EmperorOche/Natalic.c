@@ -8,14 +8,15 @@ body{
     background-color: purple;
     display: flex;
     flex-direction: column;
-    margin:0
+    margin:0;
+    overflow-x:hidden;
     
 }
 #simon{
     background-image:url(m\ \(3\).jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 470px;
+    height: 600px;
     padding: 20px;
 }
 #sam{
@@ -72,7 +73,7 @@ section{
 }
 #image-changer{
     padding: 10px;
-    margin-left: 0px;
+    margin-left: px;
     border-radius: 20px;
     display: block;
     max-width: 300px;
@@ -82,8 +83,9 @@ section{
 #text-card{
     display: flex;
     flex-direction: column;
-   height: 380px;
-    background-color: rgba(240, 248, 255, 0.329);
+  max-height: 380px;
+   margin-bottom: 20px;
+   background-color: rgba(240, 248, 255, 0.329);
 }
 
 #text-card p{
@@ -91,7 +93,7 @@ section{
     overflow: scroll;
 }
 #black{
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 0px;
     margin-right:0px;
     margin-bottom: 20px;
@@ -274,7 +276,7 @@ div.jacket img:hover{
     flex-direction: column;
     justify-content: space-between;
     overflow: scroll;
-    padding: 20px 30px;
+    padding: 20px 0px;
     align-items: center;
 
 }
@@ -291,19 +293,20 @@ div.jacket img:hover{
 
 }
 #imagine{
-    width: 400px;
+    width: 350px;
+    border-radius: 0px 78px 0px 78px;
     
 }
 
 #h4{
     padding-left: 20px;
-    width: 400px;
+    max-width: 400px;
     height: 400px;
     overflow-y: scroll ;
 }
 #size{
-    max-width: 420px;
-    height: 420px;
+    max-width: 3500px;
+    height: 350px;
     border-radius: 70px;
 }
 #rev{
@@ -315,7 +318,7 @@ div.jacket img:hover{
     overflow: hidden;
 }
 #sec{
-        background-color: gb(43, 226, 141);
+       
         display: flex;
         flex-wrap: wrap;
         height: 400px;
@@ -467,6 +470,7 @@ footer{
     }
     #text-card{
         padding-bottom: 20PX;
+        height: 240px;
     }
     .not-lazy{
         opacity: 1;
