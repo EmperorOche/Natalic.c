@@ -481,7 +481,7 @@ footer{
         opacity: 1;
     }
     div.jacket img{
-    height: 200px;
+    height: 350px;
     
 }
     #form-image{
@@ -510,8 +510,7 @@ footer{
 @media screen and (max-width: 380px ) {
     #boxing{
         width: 350px;
-       margin-left: 10px;
-
+        margin-left: 10px;
     }
     #formed{
         width: 350px;
